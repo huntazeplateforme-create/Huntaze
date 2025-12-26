@@ -1,4 +1,0 @@
-# file: /Users/765h/Huntaze/lib/ai/router/config.py
-# hypothesis_version: 6.148.5
-
-['AZURE_AI_CHAT_KEY', 'DEPLOY_DEEPSEEK', 'DEPLOY_LLAMA', 'DEPLOY_MISTRAL', 'RouterConfig', 'deepseek-r1-us', 'eastus2', 'llama33-70b-us']

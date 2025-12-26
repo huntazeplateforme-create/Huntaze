@@ -1,4 +1,0 @@
-# file: /Users/765h/Huntaze/lib/ai/router/models.py
-# hypothesis_version: 6.148.5
-
-['ClassificationResult', 'chat', 'coding', 'completion_tokens', 'complexity', 'creative', 'en', 'fr', 'high', 'language', 'low', 'math', 'other', 'prompt_tokens', 'standard', 'total_tokens', 'type']

@@ -1,4 +1,0 @@
-# file: /Users/765h/Huntaze/lib/ai/router/client.py
-# hypothesis_version: 6.148.5
-
-[0.7, 60.0, 2048, 'Content-Type', 'api-key', 'application/json', 'choices', 'completion_tokens', 'content', 'max_tokens', 'message', 'messages', 'prompt_tokens', 'role', 'system', 'temperature', 'total_tokens', 'usage', 'user']

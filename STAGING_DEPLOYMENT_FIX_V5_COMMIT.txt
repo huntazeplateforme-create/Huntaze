@@ -1,9 +1,0 @@
-🔧 STAGING FIX V5: Ultra-minimal amplify.yml to force frontend phases
-
-- Strip to absolute bare minimum configuration
-- Remove all complex environment setup
-- Use npx next build directly (bypass npm script validation)
-- Add clear logging to verify frontend phases run
-- Remove caching and optimization that might interfere
-
-Critical: Force Amplify to actually run frontend build phases.

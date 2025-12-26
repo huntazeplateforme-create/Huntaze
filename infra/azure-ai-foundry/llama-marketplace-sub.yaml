@@ -1,3 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/marketplaceSubscription.schema.json
-name: llama-3-3-70b-subscription
-model_id: azureml://registries/azureml-meta/models/Llama-3.3-70B-Instruct

@@ -1,4 +1,0 @@
-# file: /Users/765h/Huntaze/lib/ai/router/routing.py
-# hypothesis_version: 6.148.5
-
-['DeepSeek-R1', 'Llama-3.3-70B', 'Mistral-Large-2411', 'Phi-4-mini', 'RouterConfig', 'chat', 'coding', 'creative', 'fr', 'high', 'math', 'vip']

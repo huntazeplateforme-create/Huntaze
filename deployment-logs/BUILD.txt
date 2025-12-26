@@ -1,76 +1,0 @@
-2025-09-05T15:20:13.352Z [INFO]: # Build environment configured with Standard build compute type: 8GiB Memory, 4vCPUs, 128GB Disk Space
-2025-09-05T15:20:14.010Z [INFO]: # Cloning repository: git@github.com:chrlshc/sitedepot.git
-2025-09-05T15:20:23.630Z [INFO]: 
-2025-09-05T15:20:23.738Z [INFO]: Cloning into 'sitedepot'...
-                                 Updating files:  28% (20192/71315)Updating files:  29% (20682/71315)Updating files:  30% (21395/71315)Updating files:  31% (22108/71315)Updating files:  32% (22821/71315)Updating files:  33% (23534/71315)Updating files:  34% (24248/71315)Updating files:  35% (24961/71315)Updating files:  36% (25674/71315)Updating files:  37% (26387/71315)Updating files:  38% (27100/71315)Updating files:  39% (27813/71315)Updating files:  40% (28526/71315)Updating files:  41% (29240/71315)Updating files:  42% (29953/71315)Updating files:  43% (30666/71315)Updating files:  44% (31379/71315)Updating files:  44% (31869/71315)Updating files:  45% (32092/71315)Updating files:  46% (32805/71315)Updating files:  47% (33519/71315)Updating files:  48% (34232/71315)Updating files:  49% (34945/71315)Updating files:  50% (35658/71315)Updating files:  51% (36371/71315)Updating files:  52% (37084/71315)Updating files:  53% (37797/71315)Updating files:  54% (38511/71315)Updating files:  55% (39224/71315)Updating files:  56% (39937/71315)Updating files:  57% (40650/71315)Updating files:  58% (41363/71315)Updating files:  59% (42076/71315)Updating files:  60% (42789/71315)Updating files:  61% (43503/71315)Updating files:  62% (44216/71315)Updating files:  63% (44929/71315)Updating files:  64% (45642/71315)Updating files:  65% (46355/71315)Updating files:  66% (47068/71315)Updating files:  66% (47473/71315)Updating files:  67% (47782/71315)Updating files:  68% (48495/71315)Updating files:  69% (49208/71315)Updating files:  70% (49921/71315)Updating files:  71% (50634/71315)Updating files:  72% (51347/71315)Updating files:  73% (52060/71315)Updating files:  74% (52774/71315)Updating files:  75% (53487/71315)Updating files:  76% (54200/71315)Updating files:  77% (54913/71315)Updating files:  78% (55626/71315)Updating files:  79% (56339/71315)Updating files:  80% (57052/71315)Updating files:  81% (57766/71315)Updating files:  82% (58479/71315)Updating files:  83% (59192/71315)Updating files:  84% (59905/71315)Updating files:  85% (60618/71315)Updating files:  86% (61331/71315)Updating files:  86% (61389/71315)Updating files:  87% (62045/71315)Updating files:  88% (62758/71315)Updating files:  89% (63471/71315)Updating files:  90% (64184/71315)Updating files:  91% (64897/71315)Updating files:  92% (65610/71315)Updating files:  93% (66323/71315)Updating files:  94% (67037/71315)Updating files:  95% (67750/71315)Updating files:  96% (68463/71315)Updating files:  97% (69176/71315)Updating files:  98% (69889/71315)Updating files:  99% (70602/71315)Updating files: 100% (71315/71315)Updating files: 100% (71315/71315), done.
-2025-09-05T15:20:23.739Z [INFO]: # Switching to commit: fbaa2a8a0d0285f30cbab7b08b5c319d80433843
-2025-09-05T15:20:24.238Z [INFO]: Note: switching to 'fbaa2a8a0d0285f30cbab7b08b5c319d80433843'.
-                                 You are in 'detached HEAD' state. You can look around, make experimental
-                                 changes and commit them, and you can discard any commits you make in this
-                                 state without impacting any branches by switching back to a branch.
-                                 If you want to create a new branch to retain commits you create, you may
-                                 do so (now or later) by using -c with the switch command. Example:
-                                 git switch -c <new-branch-name>
-                                 Or undo this operation with:
-                                 git switch -
-                                 Turn off this advice by setting config variable advice.detachedHead to false
-                                 HEAD is now at fbaa2a8a Fix deployment errors: Update icon imports, fix button variants, remove Fragment syntax error
-2025-09-05T15:20:24.295Z [INFO]: Successfully cleaned up Git credentials
-2025-09-05T15:20:24.296Z [INFO]: # Checking for Git submodules at: /codebuild/output/src202452928/src/sitedepot/.gitmodules
-2025-09-05T15:20:24.305Z [INFO]: # Retrieving environment cache...
-2025-09-05T15:20:24.348Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
-2025-09-05T15:20:24.348Z [INFO]: ---- Setting Up SSM Secrets ----
-2025-09-05T15:20:24.348Z [INFO]: SSM params {"Path":"/amplify/d3jljx9im79str/main/","WithDecryption":true}
-2025-09-05T15:20:24.423Z [WARNING]: !Failed to set up process.env.secrets
-2025-09-05T15:20:25.341Z [INFO]: # No package override configuration found.
-2025-09-05T15:20:25.343Z [INFO]: # Retrieving cache...
-2025-09-05T15:20:31.949Z [INFO]: # Extracting cache...
-2025-09-05T15:20:38.447Z [INFO]: # Extraction completed
-2025-09-05T15:20:38.679Z [INFO]: # Retrieved cache
-2025-09-05T15:20:42.799Z [INFO]: ## Starting Backend Build
-                                 ## Checking for associated backend environment...
-                                 ## No backend environment association found, continuing...
-                                 ## Completed Backend Build
-2025-09-05T15:20:42.804Z [INFO]: {"backendDuration": 0}
-                                 ## Starting Frontend Build
-                                 # Starting phase: preBuild
-                                 # Executing command: nvm use 20 || echo "Using default Node"
-2025-09-05T15:20:48.741Z [INFO]: Now using node v20.19.0 (npm v10.8.2)
-2025-09-05T15:20:48.746Z [INFO]: # Executing command: npm ci
-2025-09-05T15:21:10.425Z [INFO]: added 341 packages, and audited 342 packages in 22s
-2025-09-05T15:21:10.430Z [INFO]: 53 packages are looking for funding
-                                 run `npm fund` for details
-                                 found 0 vulnerabilities
-2025-09-05T15:21:10.442Z [INFO]: # Completed phase: preBuild
-                                 # Starting phase: build
-2025-09-05T15:21:10.442Z [INFO]: # Executing command: npm run build
-2025-09-05T15:21:10.591Z [INFO]: > huntaze-site@1.0.0 build
-                                 > node scripts/validate-env.js && next build
-2025-09-05T15:21:10.660Z [WARNING]: Warning: NEXT_PUBLIC_API_URL does not end with /api (https://huntaze.com). If your backend expects /api, append it (e.g. http://localhost:4000/api).
-2025-09-05T15:21:11.182Z [INFO]: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
-2025-09-05T15:21:11.189Z [INFO]: Attention: Next.js now collects completely anonymous telemetry regarding usage.
-2025-09-05T15:21:11.189Z [INFO]: This information is used to shape Next.js' roadmap and prioritize features.
-                                 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-                                 https://nextjs.org/telemetry
-2025-09-05T15:21:11.248Z [INFO]: ▲ Next.js 14.2.32
-2025-09-05T15:21:11.248Z [INFO]: 
-2025-09-05T15:21:11.340Z [INFO]: Creating an optimized production build ...
-2025-09-05T15:21:38.319Z [INFO]: ✓ Compiled successfully
-2025-09-05T15:21:38.323Z [INFO]: Linting and checking validity of types ...
-2025-09-05T15:22:00.008Z [WARNING]: Failed to compile.
-2025-09-05T15:22:00.013Z [WARNING]: ./src/hooks/useAiScheduler.ts:4:10
-                                    Type error: Module '"@/lib/api"' has no exported member 'aiTeamApi'.
-                                    [0m [90m 2 |[39m[0m
-                                    [0m [90m 3 |[39m [36mimport[39m { useCallback[33m,[39m useRef[33m,[39m useState } [36mfrom[39m [32m'react'[39m[33m;[39m[0m
-                                    [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { aiTeamApi } [36mfrom[39m [32m'@/lib/api'[39m[33m;[39m[0m
-                                    [0m [90m   |[39m          [31m[1m^[22m[39m[0m
-                                    [0m [90m 5 |[39m[0m
-                                    [0m [90m 6 |[39m type [33mPlanParams[39m [33m=[39m {[0m
-                                    [0m [90m 7 |[39m   modelId[33m:[39m string[33m;[39m[0m
-2025-09-05T15:22:00.055Z [WARNING]: Next.js build worker exited with code: 1 and signal: null
-2025-09-05T15:22:00.120Z [ERROR]: !!! Build failed
-2025-09-05T15:22:00.120Z [INFO]: Please read more about Amplify Hosting's support for SSR frameworks to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/amplify-ssr-framework-support.html. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
-2025-09-05T15:22:00.120Z [ERROR]: !!! Error: Command failed with exit code 1
-2025-09-05T15:22:00.120Z [INFO]: # Starting environment caching...
-2025-09-05T15:22:00.121Z [INFO]: # Environment caching completed
-

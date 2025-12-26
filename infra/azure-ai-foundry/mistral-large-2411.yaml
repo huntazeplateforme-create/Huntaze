@@ -1,3 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/serverlessEndpoint.schema.json
-name: mistral-large-2411-endpoint
-model_id: azureml://registries/azureml-mistral/models/Mistral-Large-2411

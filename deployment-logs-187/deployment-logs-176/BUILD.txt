@@ -1,242 +1,0 @@
-2025-09-03T15:52:17.685Z [INFO]: # Build environment configured with Standard build compute type: 8GiB Memory, 4vCPUs, 128GB Disk Space
-2025-09-03T15:52:18.333Z [INFO]: # Cloning repository: git@github.com:chrlshc/sitedepot.git
-2025-09-03T15:52:27.231Z [INFO]: 
-2025-09-03T15:52:27.313Z [INFO]: Cloning into 'sitedepot'...
-                                 Updating files:  28% (20236/71258)Updating files:  29% (20665/71258)Updating files:  30% (21378/71258)Updating files:  31% (22090/71258)Updating files:  32% (22803/71258)Updating files:  33% (23516/71258)Updating files:  34% (24228/71258)Updating files:  35% (24941/71258)Updating files:  36% (25653/71258)Updating files:  37% (26366/71258)Updating files:  38% (27079/71258)Updating files:  39% (27791/71258)Updating files:  40% (28504/71258)Updating files:  41% (29216/71258)Updating files:  42% (29929/71258)Updating files:  43% (30641/71258)Updating files:  44% (31354/71258)Updating files:  45% (32067/71258)Updating files:  46% (32779/71258)Updating files:  47% (33492/71258)Updating files:  47% (33606/71258)Updating files:  48% (34204/71258)Updating files:  49% (34917/71258)Updating files:  50% (35629/71258)Updating files:  51% (36342/71258)Updating files:  52% (37055/71258)Updating files:  53% (37767/71258)Updating files:  54% (38480/71258)Updating files:  55% (39192/71258)Updating files:  56% (39905/71258)Updating files:  57% (40618/71258)Updating files:  58% (41330/71258)Updating files:  59% (42043/71258)Updating files:  60% (42755/71258)Updating files:  61% (43468/71258)Updating files:  62% (44180/71258)Updating files:  63% (44893/71258)Updating files:  64% (45606/71258)Updating files:  65% (46318/71258)Updating files:  66% (47031/71258)Updating files:  67% (47743/71258)Updating files:  68% (48456/71258)Updating files:  68% (48912/71258)Updating files:  69% (49169/71258)Updating files:  70% (49881/71258)Updating files:  71% (50594/71258)Updating files:  72% (51306/71258)Updating files:  73% (52019/71258)Updating files:  74% (52731/71258)Updating files:  75% (53444/71258)Updating files:  76% (54157/71258)Updating files:  77% (54869/71258)Updating files:  78% (55582/71258)Updating files:  79% (56294/71258)Updating files:  80% (57007/71258)Updating files:  81% (57719/71258)Updating files:  82% (58432/71258)Updating files:  83% (59145/71258)Updating files:  84% (59857/71258)Updating files:  85% (60570/71258)Updating files:  86% (61282/71258)Updating files:  87% (61995/71258)Updating files:  88% (62708/71258)Updating files:  89% (63420/71258)Updating files:  90% (64133/71258)Updating files:  91% (64845/71258)Updating files:  92% (65558/71258)Updating files:  93% (66270/71258)Updating files:  93% (66308/71258)Updating files:  94% (66983/71258)Updating files:  95% (67696/71258)Updating files:  96% (68408/71258)Updating files:  97% (69121/71258)Updating files:  98% (69833/71258)Updating files:  99% (70546/71258)Updating files: 100% (71258/71258)Updating files: 100% (71258/71258), done.
-2025-09-03T15:52:27.313Z [INFO]: # Switching to commit: 6e790516637d121c5e057704185e16416450f996
-2025-09-03T15:52:27.564Z [INFO]: Note: switching to '6e790516637d121c5e057704185e16416450f996'.
-                                 You are in 'detached HEAD' state. You can look around, make experimental
-                                 changes and commit them, and you can discard any commits you make in this
-                                 state without impacting any branches by switching back to a branch.
-                                 If you want to create a new branch to retain commits you create, you may
-                                 do so (now or later) by using -c with the switch command. Example:
-                                 git switch -c <new-branch-name>
-                                 Or undo this operation with:
-                                 git switch -
-                                 Turn off this advice by setting config variable advice.detachedHead to false
-                                 HEAD is now at 6e790516 Trigger Amplify redeploy after fixing artifacts path
-2025-09-03T15:52:27.650Z [INFO]: Successfully cleaned up Git credentials
-2025-09-03T15:52:27.651Z [INFO]: # Checking for Git submodules at: /codebuild/output/src4067933727/src/sitedepot/.gitmodules
-2025-09-03T15:52:27.659Z [INFO]: # Retrieving environment cache...
-2025-09-03T15:52:27.694Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
-2025-09-03T15:52:27.694Z [INFO]: ---- Setting Up SSM Secrets ----
-2025-09-03T15:52:27.694Z [INFO]: SSM params {"Path":"/amplify/d3jljx9im79str/main/","WithDecryption":true}
-2025-09-03T15:52:27.737Z [WARNING]: !Failed to set up process.env.secrets
-2025-09-03T15:52:28.468Z [INFO]: # No package override configuration found.
-2025-09-03T15:52:28.471Z [INFO]: # Retrieving cache...
-2025-09-03T15:52:34.807Z [INFO]: # Extracting cache...
-2025-09-03T15:52:40.959Z [INFO]: # Extraction completed
-2025-09-03T15:52:41.099Z [INFO]: # Retrieved cache
-2025-09-03T15:52:45.757Z [INFO]: ## Starting Backend Build
-                                 ## Checking for associated backend environment...
-                                 ## No backend environment association found, continuing...
-                                 ## Completed Backend Build
-2025-09-03T15:52:45.762Z [INFO]: {"backendDuration": 0}
-                                 ## Starting Frontend Build
-                                 # Starting phase: preBuild
-                                 # Executing command: nvm use 20 || echo "Using default Node"
-2025-09-03T15:52:52.680Z [INFO]: Now using node v20.19.0 (npm v10.8.2)
-2025-09-03T15:52:52.684Z [INFO]: # Executing command: npm ci
-2025-09-03T15:53:13.735Z [INFO]: added 290 packages, and audited 291 packages in 21s
-2025-09-03T15:53:13.740Z [INFO]: 52 packages are looking for funding
-                                 run `npm fund` for details
-                                 found 0 vulnerabilities
-2025-09-03T15:53:13.754Z [INFO]: # Completed phase: preBuild
-                                 # Starting phase: build
-                                 # Executing command: npm run build
-2025-09-03T15:53:13.907Z [INFO]: > huntaze-site@1.0.0 build
-                                 > node scripts/validate-env.js && next build
-2025-09-03T15:53:13.973Z [WARNING]: Warning: NEXT_PUBLIC_API_URL does not end with /api (https://huntaze.com). If your backend expects /api, append it (e.g. http://localhost:4000/api).
-2025-09-03T15:53:14.506Z [INFO]: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
-2025-09-03T15:53:14.522Z [INFO]: Attention: Next.js now collects completely anonymous telemetry regarding usage.
-2025-09-03T15:53:14.522Z [INFO]: This information is used to shape Next.js' roadmap and prioritize features.
-                                 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-                                 https://nextjs.org/telemetry
-2025-09-03T15:53:14.578Z [INFO]: ▲ Next.js 14.2.32
-2025-09-03T15:53:14.578Z [INFO]: 
-2025-09-03T15:53:14.661Z [INFO]: Creating an optimized production build ...
-2025-09-03T15:53:39.190Z [INFO]: ✓ Compiled successfully
-2025-09-03T15:53:39.194Z [INFO]: Linting and checking validity of types ...
-2025-09-03T15:53:57.262Z [INFO]: Collecting page data ...
-2025-09-03T15:53:59.574Z [INFO]: Generating static pages (0/136) ...
-2025-09-03T15:54:00.590Z [INFO]: Generating static pages (34/136)
-2025-09-03T15:54:00.929Z [INFO]: === TikTok Callback Debug ===
-2025-09-03T15:54:01.465Z [INFO]: Generating static pages (68/136)
-2025-09-03T15:54:02.111Z [INFO]: Generating static pages (102/136)
-2025-09-03T15:54:03.291Z [INFO]: ✓ Generating static pages (136/136)
-2025-09-03T15:54:03.866Z [INFO]: Finalizing page optimization ...
-2025-09-03T15:54:03.872Z [INFO]: Collecting build traces ...
-2025-09-03T15:54:12.815Z [INFO]: 
-2025-09-03T15:54:12.829Z [INFO]: Route (app)                               Size     First Load JS
-                                 ┌ ○ /                                     10.8 kB         151 kB
-                                 ├ ○ /_not-found                           161 B          87.6 kB
-                                 ├ ○ /about                                196 B          96.4 kB
-                                 ├ ○ /agency-comparison                    3.28 kB         137 kB
-                                 ├ ○ /analytics                            11.3 kB         111 kB
-                                 ├ ƒ /api/ai/config                        0 B                0 B
-                                 ├ ƒ /api/ai/quick-replies                 0 B                0 B
-                                 ├ ƒ /api/analytics/alerts-count           0 B                0 B
-                                 ├ ƒ /api/analytics/overview               0 B                0 B
-                                 ├ ƒ /api/analytics/top-hours              0 B                0 B
-                                 ├ ƒ /api/auth/check-onboarding            0 B                0 B
-                                 ├ ○ /api/auth/google                      0 B                0 B
-                                 ├ ƒ /api/auth/logout                      0 B                0 B
-                                 ├ ƒ /api/auth/me                          0 B                0 B
-                                 ├ ƒ /api/auth/reddit/callback             0 B                0 B
-                                 ├ ƒ /api/auth/signin                      0 B                0 B
-                                 ├ ƒ /api/auth/signup                      0 B                0 B
-                                 ├ ƒ /api/auth/threads/callback            0 B                0 B
-                                 ├ ƒ /api/auth/tiktok/callback             0 B                0 B
-                                 ├ ƒ /api/billing/calculate-commission     0 B                0 B
-                                 ├ ƒ /api/billing/commission/meter         0 B                0 B
-                                 ├ ƒ /api/bypass-onboarding                0 B                0 B
-                                 ├ ƒ /api/crm/connect/[provider]           0 B                0 B
-                                 ├ ƒ /api/crm/conversations                0 B                0 B
-                                 ├ ƒ /api/crm/conversations/[id]           0 B                0 B
-                                 ├ ƒ /api/crm/conversations/[id]/messages  0 B                0 B
-                                 ├ ƒ /api/crm/conversations/[id]/typing    0 B                0 B
-                                 ├ ƒ /api/crm/fans                         0 B                0 B
-                                 ├ ƒ /api/crm/fans/[id]                    0 B                0 B
-                                 ├ ○ /api/crm/providers                    0 B                0 B
-                                 ├ ƒ /api/crm/webhooks/[provider]          0 B                0 B
-                                 ├ ƒ /api/cron/monthly-billing             0 B                0 B
-                                 ├ ƒ /api/debug-tiktok                     0 B                0 B
-                                 ├ ƒ /api/debug/email                      0 B                0 B
-                                 ├ ƒ /api/debug/env                        0 B                0 B
-                                 ├ ƒ /api/eventbridge/commission           0 B                0 B
-                                 ├ ƒ /api/eventbridge/stripe               0 B                0 B
-                                 ├ ƒ /api/events                           0 B                0 B
-                                 ├ ƒ /api/fans/new-count                   0 B                0 B
-                                 ├ ƒ /api/force-complete-onboarding        0 B                0 B
-                                 ├ ○ /api/health                           0 B                0 B
-                                 ├ ƒ /api/messages/[id]/read               0 B                0 B
-                                 ├ ƒ /api/messages/unread-count            0 B                0 B
-                                 ├ ƒ /api/onboarding/complete              0 B                0 B
-                                 ├ ○ /api/platforms/instagram/connected    0 B                0 B
-                                 ├ ƒ /api/platforms/onlyfans/connect       0 B                0 B
-                                 ├ ○ /api/platforms/reddit/connected       0 B                0 B
-                                 ├ ƒ /api/platforms/status                 0 B                0 B
-                                 ├ ƒ /api/repost/click                     0 B                0 B
-                                 ├ ƒ /api/repost/import                    0 B                0 B
-                                 ├ ƒ /api/repost/import-csv                0 B                0 B
-                                 ├ ƒ /api/repost/items/[id]/schedule       0 B                0 B
-                                 ├ ƒ /api/repost/plan                      0 B                0 B
-                                 ├ ƒ /api/repost/suggestions               0 B                0 B
-                                 ├ ƒ /api/roadmap/proposals                0 B                0 B
-                                 ├ ƒ /api/roadmap/proposals/[id]/vote      0 B                0 B
-                                 ├ ƒ /api/schedule                         0 B                0 B
-                                 ├ ƒ /api/schedule/[id]                    0 B                0 B
-                                 ├ ƒ /api/schedule/recommendations         0 B                0 B
-                                 ├ ƒ /api/subscriptions/create-checkout    0 B                0 B
-                                 ├ ƒ /api/tiktok/disconnect                0 B                0 B
-                                 ├ ○ /api/tiktok/test-auth                 0 B                0 B
-                                 ├ ƒ /api/tiktok/test-sandbox              0 B                0 B
-                                 ├ ƒ /api/tiktok/upload                    0 B                0 B
-                                 ├ ƒ /api/tiktok/user                      0 B                0 B
-                                 ├ ƒ /api/uploads                          0 B                0 B
-                                 ├ ƒ /api/users/onboarding-status          0 B                0 B
-                                 ├ ƒ /api/users/profile                    0 B                0 B
-                                 ├ ƒ /api/waitlist                         0 B                0 B
-                                 ├ ƒ /api/waitlist/onlyfans                0 B                0 B
-                                 ├ ○ /auth                                 180 B           100 kB
-                                 ├ ƒ /auth/apple/callback                  0 B                0 B
-                                 ├ ○ /auth/callback                        938 B          97.1 kB
-                                 ├ ○ /auth/deauthorize                     196 B          96.4 kB
-                                 ├ ƒ /auth/google/callback                 0 B                0 B
-                                 ├ ƒ /auth/instagram                       0 B                0 B
-                                 ├ ○ /auth/instagram/callback              1.04 kB        97.2 kB
-                                 ├ ○ /auth/reddit                          1.73 kB        89.2 kB
-                                 ├ ○ /auth/reddit/callback                 978 B          97.2 kB
-                                 ├ ○ /auth/signin                          231 B           101 kB
-                                 ├ ○ /auth/threads                         2.63 kB        90.1 kB
-                                 ├ ○ /auth/threads/callback                1.27 kB        88.7 kB
-                                 ├ ○ /auth/tiktok                          2.7 kB         90.2 kB
-                                 ├ ○ /auth/tiktok/callback                 1.32 kB        88.8 kB
-                                 ├ ƒ /auth/tiktok/callback-debug           0 B                0 B
-                                 ├ ƒ /auth/tiktok/callback-test            0 B                0 B
-                                 ├ ○ /automations                          1.4 kB         97.6 kB
-                                 ├ ○ /billing                              4.47 kB         101 kB
-                                 ├ ○ /campaigns                            6.96 kB         106 kB
-                                 ├ ○ /campaigns/new                        481 B          96.7 kB
-                                 ├ ○ /chatting                             979 B           104 kB
-                                 ├ ○ /check-tiktok-cookies                 1.11 kB        88.6 kB
-                                 ├ ○ /complete-onboarding                  766 B          88.2 kB
-                                 ├ ○ /configure                            2.65 kB        98.8 kB
-                                 ├ ○ /dashboard                            10.3 kB         150 kB
-                                 ├ ○ /data-deletion                        196 B          96.4 kB
-                                 ├ ○ /debug                                161 B          87.6 kB
-                                 ├ ○ /debug-tiktok                         1.71 kB        89.2 kB
-                                 ├ ○ /debug-tiktok-connection              1.36 kB        88.8 kB
-                                 ├ ○ /debug/email                          1.33 kB        88.8 kB
-                                 ├ ○ /demo                                 2.26 kB        98.4 kB
-                                 ├ ○ /dev/format-bytes-test                1.2 kB         95.4 kB
-                                 ├ ○ /fans                                 4.96 kB         101 kB
-                                 ├ ○ /fans/import                          1.38 kB        88.8 kB
-                                 ├ ○ /features/ai-chat                     4.86 kB         142 kB
-                                 ├ ○ /features/analytics                   3.55 kB         141 kB
-                                 ├ ○ /features/automation                  4.3 kB          138 kB
-                                 ├ ○ /features/dashboard                   4.03 kB         141 kB
-                                 ├ ○ /join                                 372 B          87.8 kB
-                                 ├ ○ /learn                                161 B          87.6 kB
-                                 ├ ○ /marketing                            979 B           104 kB
-                                 ├ ○ /menu                                 6.7 kB          103 kB
-                                 ├ ○ /messages                             8.15 kB         104 kB
-                                 ├ ƒ /messages/[conversationId]            1.41 kB        88.9 kB
-                                 ├ ○ /messages/onlyfans                    2.9 kB          143 kB
-                                 ├ ○ /onboarding                           7.82 kB         133 kB
-                                 ├ ○ /onboarding/setup                     11.2 kB        98.6 kB
-                                 ├ ○ /platforms/connect                    3.86 kB         100 kB
-                                 ├ ○ /platforms/connect/onlyfans           2.97 kB        99.2 kB
-                                 ├ ○ /platforms/import/onlyfans            2.59 kB        90.1 kB
-                                 ├ ○ /pricing                              4.56 kB         138 kB
-                                 ├ ○ /pricing-stripe                       537 B            88 kB
-                                 ├ ○ /privacy                              196 B          96.4 kB
-                                 ├ ○ /privacy-policy                       161 B          87.6 kB
-                                 ├ ○ /profile                              2.99 kB         137 kB
-                                 ├ ƒ /r                                    0 B                0 B
-                                 ├ ○ /repost                               1.72 kB        89.2 kB
-                                 ├ ○ /roadmap                              1.04 kB        97.2 kB
-                                 ├ ○ /schedule                             1.62 kB        89.1 kB
-                                 ├ ○ /sitemap.xml                          0 B                0 B
-                                 ├ ○ /skip-onboarding                      790 B          88.3 kB
-                                 ├ ○ /social/tiktok/upload                 3.29 kB        99.5 kB
-                                 ├ ○ /support                              2.81 kB         137 kB
-                                 ├ ○ /terms                                196 B          96.4 kB
-                                 ├ ○ /terms-of-service                     161 B          87.6 kB
-                                 ├ ○ /test-auth-route                      952 B          88.4 kB
-                                 ├ ○ /test-design                          2.93 kB        97.2 kB
-                                 ├ ○ /test-env                             913 B          88.4 kB
-                                 ├ ○ /test-oauth-route                     1.09 kB        88.6 kB
-                                 ├ ○ /test-pricing-flow                    990 B          97.2 kB
-                                 ├ ○ /test-tiktok                          196 B          96.4 kB
-                                 ├ ○ /test-tiktok-button                   983 B          97.2 kB
-                                 ├ ○ /test-tiktok-direct                   1.05 kB        88.5 kB
-                                 ├ ○ /test-tiktok-final                    1.33 kB        88.8 kB
-                                 ├ ○ /test-tiktok-prod                     1.08 kB        88.5 kB
-                                 ├ ○ /test-tiktok-production               927 B          88.4 kB
-                                 ├ ○ /test-tiktok-url                      932 B          88.4 kB
-                                 ├ ○ /tiktok-debug-complete                1.9 kB         89.4 kB
-                                 ├ ○ /tiktok-developers-site-verification  161 B          87.6 kB
-                                 ├ ○ /tiktok-diagnostic                    2.74 kB        90.2 kB
-                                 └ ○ /why-huntaze                          3.96 kB         100 kB
-                                 + First Load JS shared by all             87.5 kB
-                                 ├ chunks/2117-106debbe1eb26078.js       31.8 kB
-                                 ├ chunks/fd9d1056-270721ac51469ce4.js   53.6 kB
-                                 └ other shared chunks (total)           2.07 kB
-                                 ƒ Middleware                              26.8 kB
-                                 ○  (Static)   prerendered as static content
-                                 ƒ  (Dynamic)  server-rendered on demand
-2025-09-03T15:54:12.875Z [INFO]: # Completed phase: build
-                                 ## Completed Frontend Build
-2025-09-03T15:54:12.915Z [INFO]: ## Build completed successfully
-2025-09-03T15:54:12.916Z [INFO]: # Starting caching...
-2025-09-03T15:54:12.926Z [INFO]: # Creating cache artifact...
-2025-09-03T15:54:17.854Z [INFO]: # Created cache artifact
-2025-09-03T15:54:17.962Z [INFO]: # Uploading cache artifact...
-2025-09-03T15:54:23.322Z [INFO]: # Uploaded cache artifact
-2025-09-03T15:54:23.411Z [INFO]: # Caching completed
-2025-09-03T15:54:23.420Z [ERROR]: !!! We failed to bundle your application due to an unexpected error. Please try again. If the issue persists, please contact AWS support.
-2025-09-03T15:54:23.420Z [ERROR]: !!! CustomerError: Artifacts base directory not found in build output, please check your buildSpec
-2025-09-03T15:54:23.420Z [INFO]: # Starting environment caching...
-2025-09-03T15:54:23.420Z [INFO]: # Environment caching completed
-

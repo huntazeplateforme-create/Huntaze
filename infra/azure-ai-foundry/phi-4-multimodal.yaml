@@ -1,3 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/serverlessEndpoint.schema.json
-name: phi-4-multimodal-endpoint
-model_id: azureml://registries/azureml/models/Phi-4-multimodal-instruct

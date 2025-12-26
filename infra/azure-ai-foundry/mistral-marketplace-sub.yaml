@@ -1,3 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/marketplaceSubscription.schema.json
-name: mistral-large-2411-subscription
-model_id: azureml://registries/azureml-mistral/models/Mistral-Large-2411

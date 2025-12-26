@@ -1,3 +1,0 @@
-#!/bin/bash
-# Staging Login Fix - Quick Access Script
-node scripts/staging-login-cli.js "$@"

@@ -1,3 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/serverlessEndpoint.schema.json
-name: deepseek-r1-endpoint
-model_id: azureml://registries/azureml-deepseek/models/DeepSeek-R1

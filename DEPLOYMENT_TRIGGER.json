@@ -1,8 +1,0 @@
-{
-  "deploymentId": "deploy-1762345624708",
-  "timestamp": "2025-11-05T12:27:04.702Z",
-  "reason": "Force redeploy to fix 404 issues",
-  "version": "1.0.0",
-  "environment": "production",
-  "triggeredBy": "deployment-fix-script"
-}

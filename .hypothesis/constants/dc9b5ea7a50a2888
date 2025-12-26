@@ -1,4 +1,0 @@
-# file: /Users/765h/Huntaze/lib/ai/router/main.py
-# hypothesis_version: 6.148.5
-
-[400, 401, 500, 1000, '/health', '/route', '1.0.0', 'AI_ROUTER_API_KEY', 'ApiKey', 'Huntaze AI Router', 'Invalid API key', 'WWW-Authenticate', 'X-API-Key', 'ai-router', 'client_tier', 'completion_tokens', 'complexity', 'healthy', 'language', 'prompt_tokens', 'region', 'service', 'status', 'type', 'type_hint_applied', 'unknown']
